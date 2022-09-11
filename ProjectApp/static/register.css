@@ -1,0 +1,279 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#id_first_name{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+    
+    
+    
+}
+.reg{
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px red;
+    font-size: 3em;
+    margin-bottom: 60px;
+}
+#id_last_name{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+    
+    
+    
+}
+#id_city{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+    
+    
+}
+#id_born_date{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+    
+    
+}
+#id_email{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    
+    margin-left: 30px;
+    
+}
+#id_phone_number{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-left: 30px;
+    
+}
+#id_age{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+    
+    
+}
+#id_countries{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+#id_password1{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+label {
+    margin-left: 100px;
+    color: white;
+}
+
+.my_class1{
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+.fn{
+    margin-left: 40px;
+}
+.class1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+.class2{
+    display: flex;
+    flex-direction: column;
+}
+.allform{
+display: flex;
+justify-content: space-around;
+}
+.my_class1{
+    position: absolute;
+    left: 104px;
+    top: 141px;
+    text-shadow: 1px 1px black;
+}
+.my_class2{
+    position: absolute;
+    left: 47px;
+    top: 193px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class3{
+    position: absolute;
+    left: 65px;
+    top: 246px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class4{
+    position: absolute;
+    left: 48px;
+    top: 299px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class5{
+    position: absolute;
+    left: 734px;
+    top: 141px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class6{
+    position: absolute;
+    left: 696px;
+    top: 193px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class7{
+    position: absolute;
+    left: 735px;
+    top: 246px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class8{
+    position: absolute;
+    left: 728px;
+    top: 299px;
+
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+#id_username{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+#id_password2{
+    text-align: center;
+    width: 330px;
+    height: 29px;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+#id_countries{
+    text-align: center ;
+    width: 330px ;
+    height: 29px ;
+    border-radius: 6px ;
+    margin-left: 30px ;
+}
+.username{
+    position: absolute;
+    left: 46px;
+    top: 357px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class10{
+    position: absolute;
+    left: 728px;
+    top: 357px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.my_class11{
+    position: absolute;
+    left: 46px;
+    top: 412px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.check{
+    display: flex;
+    margin-left: 127px;
+}
+.check label {
+    margin-left: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.innerbox{
+    margin-left: 20px;
+    margin-right: 73px;
+
+}
+.instruments{
+    display: flex;
+    margin-left: 124px;
+}
+.innerbox1{
+    margin-left: 20px;
+    margin-right: 73px;
+
+}
+.instruments label {
+    margin-left: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+button{
+    width: 377px;
+    height: 39px;
+    border-radius: 94px;
+    background-color: blue;
+    color: white;
+    margin-top: 50px;
+    margin-left: 42%;
+}
+label:hover{
+    color: purple;
+}
+.btn{
+    position: relative;
+    bottom: 21px;
+}
+.form-control{
+    position: relative;
+    top: 17px;
+    left: 19px;
+}
+legend{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal;
+    margin-left: 292px;
+}

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="banniere">
+</div>
+<div class="messagehome"><p class="titlehome">Find your music style and create your group </h1>
+</div>
+<h5 class="title_first">YOUR MUSIC, YOUR STYLE<h5>
+    <div class="section_home">
+    <img class="photo1home" src="{% static 'firstphoto_home.gif'%}" alt="group of music" width="350px">
+    <p class="first_section">Play me something… Music is always a love story. <br>
+         For beginners or absolute professionals, with this platform, <br> find your own style and discover the kind of music you want to create. <br>
+         Jazz, Pop, Soul, Rap, Afro Trap, even if it’s technical,<br> music has nothing to do with  mechanic. <br>
+    Find your style and feel the vibe. <br>
+    <a href="{% url 'musicians' %}"> <button class="firstbutton" type="submit">  Find a musician around me </button> </a> <p></div>
+    
+    <h5 class="titlesecond">THE BAND YOU NEEDED<h5>
+    
+        <div class="section2_home">
+        <img class="photo2home" src="{% static 'photo2home.gif'%}" alt="band you need" width="350px">
+    <p class="second_section2">It feels so good to be in the right place. <br>
+         Share your music and build a group with real chemistry. <br>
+          Select a musician and add him to your group. <br>
+          You will be able to make the music that suits you. <br>
+           Share your passion with musicians who feel the sound the same way as you. <br>
+    <a href="{% url 'createbands' %}"><button class="secondbutton" type="submit"> Create your group </button> </a><p></div>
+    
+    <h5 class="titlethird">YOU HAVE TALENT? WE CONNECT!<h5> <br>
+        <div class="section3_home">
+            <img class="photo3home" src="{% static 'photo3.gif' %}" alt="Photo of talent bands" width="350px">
+    <p class="third_section">Music is able to gather people all around the world and create magical moments. <br>
+         To be a musician is sometimes full of challenges. <br>
+         Our engagement is to connect people with talent and passion. <br>
+          We developed an online space to make your search for musicians easier. <br>
+          In a few clicks, create your own group and mix your style to other’s, in order to create something unique. <br>
+    <a href="{%url 'contact'%}"> <button class="thirdbutton" type="submit"> Contact us </button></a><p></div>
+
+        <footer class="text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="text-center p-3">
+              <span class="copyright">  © 2022 Copyright:</span>
+              <a class="text-dark" href="home">ShareMusic</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+{% endblock %}

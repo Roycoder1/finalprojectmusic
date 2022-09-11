@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+
+{% block content%}
+<div class="bannieremusicians"></div>
+<div class="searchbar_musicians">
+    <!-- <input class="searchbar_music" type="search" placeholder="Find a musicians by city"> -->
+    <!-- <button class="searchbar1" type="submit">Search</button> -->
+</div>
+<form method="post" action="{% url 'results' %}">
+    {% csrf_token %}
+    <input  class="searchbar_music" name="searchcity" type="text" placeholder="Search...">
+    <button class="searchbar1" type="submit">Search</button>
+
+  </form>
+  <footer class="text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3">
+      <span class="copyright">  © 2022 Copyright:</span>
+      <a class="text-dark" href="home">ShareMusic</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  {%endblock%}

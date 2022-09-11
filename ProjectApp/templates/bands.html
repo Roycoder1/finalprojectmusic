@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="bannieregroup"></div>
+<h1 class="mb">Your music bands</h1>
+<p class="bandsdisplay"> You're members: </p>
+<div class="gi">
+    <div class="allform">
+        <div class="classfirstmember">
+       
+        <div class="firstresults">
+        <label class="result result1" for="{{ field.auto_id }}">First Name :   </label> <span class="res res1">  {{  member.first_name }}</span> <br>
+        <label class="result result2" for="{{ field.auto_id }}">Last Name :  </label> <span class="res res2">  {{  member.last_name }}</span> <br>
+        <label class="result result3" for="{{ field.auto_id }}">Age : </label><span class="res res3">  {{ member.age }} </span><br>
+        <label class="result result4" for="{{ field.auto_id }}">Birth date : </label><span class="res res4">  {{ member.born_date }} </span><br>
+    </div>
+        <div class="secondresults">
+        <label class="result result5" for="{{ field.auto_id }}"> Email : </label> <span class="res res5">  {{  member.email }}</span> <br>
+        <label class="result result6" for="{{ field.auto_id }}">Phone number :</label><span class="res res6">  {{  member.phone_number }}</span> <br>
+        <label class="result result7" for="{{ field.auto_id }}">City :</label> <span class="res res7">  {{  member.city }} </span><br>
+        <label class="result result8" for="{{ field.auto_id }}">Country :</label> <span class="res res8">  {{  member.countries }}</span> <br>
+    </div>
+   
+    </div>
+    <div></div>
+        
+
+
+
+
+
+
+
+
+
+{% endblock %}

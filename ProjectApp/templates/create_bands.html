@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="bannieregroup"></div>
+<form method="post" >
+
+    {% csrf_token %}
+    <div class="addgroupband1">
+    {{form.as_p}}
+    <button class="lastbutton" type="submit">Send</button>
+    </div>
+
+</form>
+
+
+
+
+
+
+
+
+{% endblock %}

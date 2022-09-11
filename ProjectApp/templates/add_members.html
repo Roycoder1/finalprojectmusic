@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+ <form method="post">
+ </div>
+    {%csrf_token%}
+   <div class="fm"> {{form.as_p}}
+ <a href="{%url  'bands' %}"><button class="chooseband" type="submit">Choose</button></a>
+</div> 
+
+</form>
+
+
+{%endblock%}

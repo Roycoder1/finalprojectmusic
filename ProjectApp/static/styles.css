@@ -1,0 +1,607 @@
+body{
+    
+    width: 99%;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.all{
+    display: flex;
+
+}
+.formAll{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 1026px;
+    top: 36%;
+}
+h1{
+    margin-top: 183px;
+    margin-left: 40px;
+    color: blue;
+    font-size: 4em;
+}
+h2{
+    position: absolute;
+    top: 267px;
+    color: white;
+    margin-left: 97px;
+}
+
+
+
+
+button{
+    
+    margin-left: 53px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    /* position: absolute; */
+    /* top: 586px; */
+    /* right: 1118px; */
+    font-size: 1em;
+
+}
+button a {
+    text-decoration: none;
+    color:white;
+}
+p{
+    margin-left: 40px;
+}
+.login{
+    position: absolute;
+    top: 150px;
+    left: 1073px;
+    color: blue;
+    font-size: 2.5em;
+}
+#id_username{
+    width: 330px;
+    height: 29px;
+    
+    border-radius: 6px;
+
+}
+#id_password{
+    width: 330px;
+    height: 25px;
+    
+    border-radius: 6px;
+}
+.fn{
+    width: 330px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 6px;
+}
+a{
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+.logo{
+    position: relative;
+    top: 168px;
+    left: 58px;
+
+}
+.navall{
+    display: flex;
+    justify-content: center;
+    width: 1231px;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.nav-link{
+    margin-right: 100px;
+}
+.navbar-brand:hover, .dropdown-item:hover,.nav-link:hover{
+    color: royalblue !important;
+}
+.profilename{
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    width: 1317px;
+    position: absolute;
+    top: 180px;
+}
+h3{
+    margin-top: 24px;
+    color: white;
+    margin-left: 66px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+}
+.personal_data{
+    color: purple;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.data2{
+    position: absolute;
+    left: 772px;
+    top: 335px;
+    position: absolute;
+    
+    color: orangered;
+    
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+}
+.data1{
+    position: absolute;
+    left: 364px;
+    top: 335px;
+    /* margin-top: 24px; */
+    color: orangered;
+    /* margin-left: 66px; */
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+}
+.avatar{
+    position: absolute;
+    top: 293px;
+}
+.data1 , .data2{
+    font-size: 1.7em;
+}
+.photoprofile{
+    border-radius: 213px;
+}
+.upload{
+
+    margin-left: -49px;
+    width: 300px;
+    /* height: 30px; */
+    border-radius: 26px;
+    /* background-color: blue; */
+    color: white;
+    position: absolute;
+    top: 564px;
+    right: 1084px;
+    font-size: 1em;
+    height: 40px;
+    background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+    color: white;
+    font-family: 'Lobster', cursive;
+    }
+  
+    .text-dark{
+        margin-left: 20px;
+        color: blue !important;
+    }
+    .banniere{
+    background-image: url(banniere_home.gif);
+    width: 101%;
+    height: 691px;
+    background-size: cover;
+    
+    }
+    .titlehome{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-family: 'Lobster', cursive;
+    }
+    .backtext{
+        color: white;
+        font-size: 1.3em;
+        margin-top: 155px;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    .footer2{
+        position: absolute;
+         top: 151px;
+    }
+    .formcontact{
+        text-align: center;
+    }
+    .firstcontact{
+        text-align: center;
+    width: 417px;
+    height: 32px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    }
+    .lastcontact{
+        text-align: center;
+    width: 417px;
+    height: 32px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    }
+    .phonecontact{
+        text-align: center;
+        width: 417px;
+        height: 32px;
+        border-radius: 6px;
+        margin-right: 8px;
+        margin-left: 30px;
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+    .mailcontact{
+        text-align: center;
+    width: 417px;
+    height: 32px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    }
+    .subject{
+        text-align: center;
+        width: 417px;
+        height: 32px;
+        border-radius: 6px;
+        margin-right: 60px;
+        margin-left: 30px;
+        margin-bottom: 7px;
+        margin-top: 10px;
+    }
+    .message{
+        text-align: center;
+    width: 419px;
+    height: 79px;
+    border-radius: 6px;
+    margin-right: 2px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    }
+    .contacttitle{
+        MARGIN-LEFT: 104PX;
+        color: blue;
+        font-family: 'Lobster', cursive;
+        font-size: 4em;
+        margin-top: 50px;
+        margin-right: 106px;
+        text-align: center;
+
+    }
+    .contact1{
+        position: absolute;
+    top: 254px;
+    left: 415px;
+    }
+    .contact2{
+        position: absolute;
+    top: 310px;
+    left: 415px;
+    }
+    .contact3{
+        position: absolute;
+    top: 363px;
+    left: 385px;
+    }
+    .contact4{
+        position: absolute;
+    top: 415px;
+    left: 437px;
+    }
+    .contact6{
+        position: absolute;
+        top: 541px;
+        left: 424px;
+    }
+    .buttoncontact{
+        margin-right: 25px;
+    }
+    .messagehome{
+        height: 80px;
+    }
+    .section_home{
+        display: flex;
+    }
+    .first_section{
+        height: 196px;
+        margin: auto;
+        text-align: left;
+        color: white;
+        margin-left: 253px;
+    }
+    .firstbutton{
+        height: 56px;
+    background-color: orange;
+    margin-top: 32px;
+    margin-left: 3px;
+    border-radius: 55px;
+    background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+    color: white;
+    font-family: 'Lobster', cursive;
+    width: -webkit-fill-available;
+    margin-right: 69px;
+
+    }
+    .photo1home{
+        margin-left: 50px;
+    }
+    .title_first{
+        color: white;
+    /* font-weight: bold; */
+    position: absolute;
+    left: 652px;
+    font-size: 2.3em;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+    }
+    .titlesecond{
+        color: white;
+        margin-left: 47px;
+        margin-top: 44px;
+        font-size: 2.3em;
+        font-family: 'Lobster', cursive;
+        text-shadow: 2px 2px black;
+        /* margin-top: 20px; */
+        position: absolute;
+        top: 1258px;
+
+    }
+    .second_section2{
+        margin-right: 454px;
+    height: 196px;
+    margin: auto;
+    text-align: left;
+    color: white;
+    margin-right: 241px;
+    }
+    .section2_home{
+        display: flex;
+    /* justify-content: revert; */
+    flex-direction: row-reverse;
+    margin-top: 54px;
+    }
+    .photo2home{
+        margin-right: 95px;
+    }
+    .secondbutton{
+        height: 56px;
+        background-color: orange;
+        margin-top: 32px;
+        margin-left: 0px;
+        margin-right: 47px;
+        border-radius: 55px;
+        background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+        color: white;
+        width: -webkit-fill-available;
+        font-family: 'Lobster', cursive;
+
+    }
+    .photo3home{
+        margin-left: 50px;
+    }
+    .section3_home{
+        display: flex;
+    }
+    .third_section{
+        height: 196px;
+    margin: auto;
+    text-align: left;
+    color: white;
+    margin-left: 253px;
+    }
+    .thirdbutton{
+        height: 56px;
+        background-color: orange;
+        background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+        color: white;
+        margin-top: 32px;
+        margin-left: 0px;
+        margin-right: 60px;
+        border-radius: 55px;
+        width: -webkit-fill-available;
+        font-family: 'Lobster', cursive;
+
+    }
+    .thirdbutton:hover, .secondbutton:hover, .firstbutton:hover{
+        color: purple;
+    }
+    .copyright{
+        color: white;
+    }
+    .text-center{
+        margin-top: 40px;
+    }
+    .titlethird{
+        color: white;
+        /* font-weight: bold; */
+        position: absolute;
+        left: 652px;
+        font-size: 2.3em;
+        font-family: 'Lobster', cursive;
+        text-shadow: 2px 2px black;
+        margin-top: 27px;
+    }
+   .allnav{
+    margin-top: 159px;
+   }
+   .allprofile{
+    height: 381px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: 34px;
+    border: 2px solid grey;
+    margin-top: 144px;
+   }
+   .innertext{
+    color: deepskyblue;
+   }
+   .bannieremusicians{
+    background-image: url(music.gif);
+    height:600px;
+    width: 101%;
+
+   }
+   .searchbar_music{
+    margin-top: 50px;
+    width: 600px;
+    text-align: center;
+    margin-left: 322px;
+    font-size: 1.7em;
+    COLOR: blue;
+    border-radius: 10px;
+    margin-bottom: 30px
+   }
+   .searchbar1{
+    height: 49px;
+    background-color: orange;
+    background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+    color: white;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-right: 60px;
+    border-radius: 55px;
+    width: 314px;
+    font-size: 1.7em;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 32px;
+   }
+   .classresults1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7em;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    border: 2px solid grey;
+    height: 309px;
+    padding-top: 30px;
+    border-radius: 42px;
+   }
+   .result{
+    color: orangered;
+    
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+   }
+   .res{
+    color: deepskyblue;
+    
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px black;
+   }
+   .bannieregroup{
+    background-image: url(banniere_groups.jpg);
+    height: 600px;
+    width: 101%;
+    margin-bottom: 30px;
+   }
+   .mb{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Lobster', cursive;
+   }
+   .add_newmember{
+    height: 34px;
+    background-color: orange;
+    background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+    color: white;
+    margin-top: 22px;
+    margin-left: 24px;
+    margin-right: 60px;
+    border-radius: 55px;
+    width: 310px;
+    font-size: 0.7em !important;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 32px;
+    position: absolute;
+    right: 531px;
+
+   }
+   .addlink {
+    font-size: 1em !important;
+
+   }
+   .chooseband{
+    height: 34px;
+    background-color: orange;
+    background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+    color: white;
+    border-radius: 55px;
+    width: 310px;
+    font-size: 1em !important;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 32px;
+   }
+   .fm{
+    text-align: center;
+   }
+   .bandsdisplay, .gi{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 1.7em;
+    text-align: center;
+
+
+   }
+   .gi{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   }
+   .addgroupband1{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+
+
+   }
+   .lastbutton{
+    height: 41px;
+    background-color: orange;
+    background: -webkit-linear-gradient(rgb(242, 242, 4), rgb(201, 12, 12));
+    color: white;
+    margin-top: 7px;
+    margin-left: 149px;
+    margin-right: 60px;
+    border-radius: 55px;
+    width: 179px;
+    font-size: 1.7em;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 32px;
+   }
+   .classfirstmember{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+    margin-bottom: 97px;
+    margin-top: 60px;
+    border: 2px solid grey;
+    height: 227px;
+    padding-top: 18px;
+    border-radius: 42px;
+   }
+   
+   @media only screen and (max-width: 600px) {
+    body {
+      background-color: beige;
+    }
+  }

@@ -1,0 +1,39 @@
+{% extends 'base.html'%}
+
+{% block content%}
+
+<h2 class="profilename">Hi {{user}} ,  welcome to your personal space</h1>
+  <div class="allprofile">
+    <h3>Personal data</h3>
+    {%if profile_picture %}
+    <img  class = 'photoprofile'src= "media/{{profile_picture.profile_pic}}" alt="profile" width='300px' height='240px' >
+    {% else %}
+    <img class = 'avatar' src="../static/profile_picture.png" alt="profile picture" width='300px' height='240px'>
+    {% endif %}
+    <a href="{% url 'image_upload'%}"><button class="upload" type="submit"> Upload a photo </button></a>
+<div class = 'personal_data'>
+    <div class="data1">
+   <p>First name : <span class="innertext">{{profile.first_name}}</span>  <br>
+      Last Name :  <span class="innertext"> {{profile.last_name}}</span> <br>
+      Birth date : <span class="innertext"> {{profile.born_date}}</span>  <br>
+      Age : <span class="innertext">{{profile.age}}</span> <br>
+    </div>
+    <div class="data2">
+      Email:  <span class="innertext">{{profile.email}} </span> <br>
+      Phone number: <span class="innertext"> {{profile.phone_number}}</span> <br>
+      City : <span class="innertext">  {{profile.city}}</span> <br>
+      Country : <span class="innertext">{{profile.countries}}</span> <br>
+    </div>
+</div>
+</div>
+<footer class="text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="allnav">
+  <div class="text-center p-3">
+    <span class="copyright">  © 2022 Copyright:</span>
+    <a class="text-dark" href="home">ShareMusic</a>
+  </div>
+</div>
+  <!-- Copyright -->
+</footer>
+{% endblock content%}

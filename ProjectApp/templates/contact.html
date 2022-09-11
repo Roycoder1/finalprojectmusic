@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1 class="contacttitle">CONTACT</h1>
+<form method="post" class="formcontact">
+    {% csrf_token %}
+    <div class="contactdiv">
+        <label class="contact1" for="{{ field.auto_id }}">First Name  <br> </label>{{ form.first_name }} <br>
+        <label class="contact2" for="{{ field.auto_id }}">Last Name </label>{{ form.last_name }} <br>
+        <label class="contact3" for="{{ field.auto_id }}">Phone Number </label>{{ form.phone_number }} <br>
+        <label class="contact4" for="{{ field.auto_id }}">Email</label>{{ form.email }} <br>
+        <label class="contact5" for="{{ field.auto_id }}">Subject </label>{{ form.subject }} <br>
+        <label class="contact6" for="{{ field.auto_id }}">Message</label>{{ form.message }} <br>
+
+    </div>
+    <button class="buttoncontact" type="submit">Send</button>
+</form>
+{% endblock %}
