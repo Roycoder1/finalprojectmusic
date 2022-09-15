@@ -90,18 +90,23 @@ WSGI_APPLICATION = "FinalProject.wsgi.application"
         
 #     }
 # }
-DATABASES = {
-    "default": {
-        'ENGINE': 'django.db.backends.postgresql',
-        "NAME": "dbu77fq9di0tb8",
-        'USER': 'lrqwkavdyrtmxc',
-        'PASSWORD': 'ca3d0e78e23a9822acfd5d069c999b8c711be4cf545f1c50c79a29fe856b0715',
-        'HOST': 'ec2-3-93-206-109.compute-1.amazonaws.com',
-        'PORT': '5432',
+# DATABASES = {
+#     "default": {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         "NAME": "dbu77fq9di0tb8",
+#         'USER': 'lrqwkavdyrtmxc',
+#         'PASSWORD': 'ca3d0e78e23a9822acfd5d069c999b8c711be4cf545f1c50c79a29fe856b0715',
+#         'HOST': 'ec2-3-93-206-109.compute-1.amazonaws.com',
+#         'PORT': '5432',
         
+#     }
+# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -131,9 +136,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "/static/"
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-django_heroku.settings(locals())
+STATIC_URL = "static/"
+# STATIC_URL = "/static/"
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# django_heroku.settings(locals())
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
