@@ -12,6 +12,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
+
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,7 +29,7 @@ SECRET_KEY = "django-insecure-#$!md02f94onip$*ecn!yvco*-ufzpjt(9xr)as^gv55z2ux5n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['musicshare-web.herokuapp.com']
 
 
 # Application definition
@@ -76,13 +79,24 @@ WSGI_APPLICATION = "FinalProject.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     "default": {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         "NAME": "Finalproject_Lastdatabase",
+#         'USER': 'postgres',
+#         'PASSWORD': 'Azerty1234567890',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+        
+#     }
+# }
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.postgresql',
-        "NAME": "Finalproject_Lastdatabase",
-        'USER': 'postgres',
-        'PASSWORD': 'Azerty1234567890',
-        'HOST': 'localhost',
+        "NAME": "dbu77fq9di0tb8",
+        'USER': 'lrqwkavdyrtmxc',
+        'PASSWORD': 'ca3d0e78e23a9822acfd5d069c999b8c711be4cf545f1c50c79a29fe856b0715',
+        'HOST': 'ec2-3-93-206-109.compute-1.amazonaws.com',
         'PORT': '5432',
         
     }
@@ -117,8 +131,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "static/"
-
+STATIC_URL = "/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+django_heroku.settings(locals())
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
