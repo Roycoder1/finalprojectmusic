@@ -29,7 +29,7 @@ SECRET_KEY = "django-insecure-#$!md02f94onip$*ecn!yvco*-ufzpjt(9xr)as^gv55z2ux5n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['musicshare-web.herokuapp.com']
+ALLOWED_HOSTS = ['music-in-israel.herokuapp.com']
 
 
 # Application definition
@@ -91,22 +91,23 @@ WSGI_APPLICATION = "FinalProject.wsgi.application"
 #     }
 # }
 # DATABASES = {
-#     "default": {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         "NAME": "dbu77fq9di0tb8",
-#         'USER': 'lrqwkavdyrtmxc',
-#         'PASSWORD': 'ca3d0e78e23a9822acfd5d069c999b8c711be4cf545f1c50c79a29fe856b0715',
-#         'HOST': 'ec2-3-93-206-109.compute-1.amazonaws.com',
-#         'PORT': '5432',
-        
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        'ENGINE': 'django.db.backends.postgresql',
+        "NAME": "d597nlb8elmgfl",
+        'USER': 'ekfyzawtnvbqwx',
+        'PASSWORD': 'c740355a43af2ab1e16e77b120962d9d7bfca4880eb945dcaf8bc3cd7438ba6a',
+        'HOST': 'ec2-34-194-40-194.compute-1.amazonaws.com',
+        'PORT': '5432',
+        
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
@@ -136,10 +137,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "static/"
-# STATIC_URL = "/static/"
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-# django_heroku.settings(locals())
+# STATIC_URL = "static/"
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = "/static/"
+django_heroku.settings(locals())
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
