@@ -6,10 +6,10 @@ Django==4.1.1
 django-heroku==0.3.1
 django-phonenumber-field==6.4.0
 gunicorn==20.1.0
-heroku==0.1.4
+
 idna==3.3
 numpy==1.23.2
-pandas==1.4.4
+
 phonenumbers==8.12.54
 Pillow==9.2.0
 psycopg2==2.9.3
